@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-# 💡 전처리
+# 전처리
 def transform(df):
     df['in_marriage'] = df['in_marriage'].map({'Y': 1, 'N': 0})
     df['gender'] = df['gender'].map({'M': 1, 'F': 0})
